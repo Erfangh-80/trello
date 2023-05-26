@@ -3,10 +3,10 @@ export const Home = () => {
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
-      width='30'
-      height='30'
+      width="25"
+      height="25"
       viewBox="0 0 24 24"
-      strokeWidth={1.5}
+      strokeWidth={1}
       stroke="currentColor"
       className="text-[--color-bright]"
     >
@@ -18,4 +18,3 @@ export const Home = () => {
     </svg>
   );
 };
-
