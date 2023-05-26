@@ -1,9 +1,9 @@
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 import { FC } from "react";
 
 interface IProfileProps {
   className: string;
-  address: string;
+  address: StaticImageData;
   alt: string;
 }
 
