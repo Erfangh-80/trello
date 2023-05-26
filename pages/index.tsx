@@ -1,5 +1,5 @@
-import SideBar from "@/components/organisms/SideBar";
+import Dashboard from "@/components/pages/Dashboard";
 
 export default function Home() {
-  return <SideBar />;
+  return <Dashboard />;
 }

@@ -8,9 +8,9 @@ interface IItemProps {
 
 export const ItemList: FC<IItemProps> = ({ icon, text }) => {
   return (
-    <div className="flex items-center ml-3 cursor-pointer hover:bg-[--color-gray] py-2 px-3 rounded-xl mr-7">
+    <div className="flex items-center cursor-pointer py-4 px-3 rounded-xl mx-2">
       {icon}
-      <P className="ml-4 text-[--color-bright] font-bold text-xl" text={text} />
+      <P className="ml-3 font-bold text-xl" text={text} />
     </div>
   );
 };

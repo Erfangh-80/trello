@@ -1,11 +1,11 @@
 import Content from "../template/Content";
-import SideBar from "../template/SideBar";
+import Navbar from "../template/Navbar";
 
 const Dashboard = () => {
   return (
-    <div className="flex min-h-screen bg-[--color-gray] p-10">
-      <SideBar />
-      <Content />
+    <div className="min-h-screen">
+      <Navbar /> 
+      <Content /> 
     </div>
   );
 };
