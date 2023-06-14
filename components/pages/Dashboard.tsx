@@ -1,11 +1,15 @@
+import { useSelector } from "react-redux";
+import { Modal } from "../organisms/Modal";
 import Content from "../template/Content";
-import Navbar from "../template/Navbar";
+import { RootState } from "@/redux/store";
 
 const Dashboard = () => {
+  const { isShow } = useSelector((state: RootState) => state.modal);
+
   return (
     <div className="min-h-screen">
-      <Navbar /> 
-      <Content /> 
+      {isShow ? <Modal /> : null}
+      <Content />
     </div>
   );
 };
