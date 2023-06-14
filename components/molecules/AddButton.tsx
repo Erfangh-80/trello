@@ -1,8 +1,16 @@
+import { FC,MouseEventHandler } from "react";
 import Add from "../atoms/icons/Add";
 
-export const AddButton = () => {
+interface IPropsButton {
+  onClick: MouseEventHandler<HTMLDivElement> | undefined;
+}
+
+export const AddButton: FC<IPropsButton> = ({ onClick }) => {
   return (
-    <div className="flex justify-center drop-shadow-lg border-2 border-dashed mt-5 rounded p-3 cursor-pointer">
+    <div
+      onClick={onClick}
+      className="flex justify-center drop-shadow-lg border-2 border-dashed mt-5 rounded p-3 cursor-pointer"
+    >
       <Add />
     </div>
   );
