@@ -5,7 +5,7 @@ interface IBadgeProps {
     text: string;
 }
 
-export const Badge: FC<IBadgeProps> = ({className, text}) => {
+export const Span: FC<IBadgeProps> = ({className, text}) => {
     return (
         <span className={className}>{text}</span>
     );
