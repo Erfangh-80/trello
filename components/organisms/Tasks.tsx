@@ -21,7 +21,7 @@ export const Tasks: FC<ITaskProps> = (props) => {
   };
 
   return (
-    <div className="bg-white bg-opacity-30 backdrop-blur-md drop-shadow-xl rounded rounded-lg py-1">
+    <div className="bg-white bg-opacity-30 backdrop-blur-md drop-shadow-xl rounded-lg py-1">
       <div className="flex items-center justify-between px-3 py-5 cursor-pointer">
         <div className="flex">
           <ArrowRight />
