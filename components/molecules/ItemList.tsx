@@ -1,5 +1,6 @@
 import { FC, ReactElement } from "react";
-import { Paragraph as P } from "../atoms/typography/paragraph";
+
+import { Paragraph as P } from "../atoms";
 
 interface IItemProps {
   icon: ReactElement;

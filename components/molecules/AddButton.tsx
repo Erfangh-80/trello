@@ -1,5 +1,6 @@
-import { FC,MouseEventHandler } from "react";
-import Add from "../atoms/icons/Add";
+import { FC, MouseEventHandler } from "react";
+
+import { Add } from "../atoms";
 
 interface IPropsButton {
   onClick: MouseEventHandler<HTMLDivElement> | undefined;
