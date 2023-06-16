@@ -1,7 +1,4 @@
-import { CheckIcon } from "../atoms/icons/Check";
-import { Time } from "../atoms/icons/Time";
-import { Paragraph } from "../atoms/typography/paragraph";
-import { Span } from "../atoms/typography/span";
+import { CheckIcon, Paragraph, Span, Time } from "../atoms";
 
 export const Task = () => {
   return (
@@ -10,15 +7,15 @@ export const Task = () => {
       <div className="flex flex-wrap my-6">
         <Span
           text="Design system"
-          className="rounded-[15px] border bg-[#4fcc25]  px-2 py-[5px] text-white text-[12px] font-[Pt-regular]"
+          className="rounded-[15px] border bg-[#4fcc25]  px-2 py-[5px] text-[var(--color-white)] text-[12px] font-[Pt-regular]"
         />
         <Span
           text="Design system"
-          className="rounded-[15px] border bg-[#cf61a1]  px-2 py-[5px] text-white text-sm font-[Pt-regular]"
+          className="rounded-[15px] border bg-[#cf61a1]  px-2 py-[5px] text-[var(--color-white)] text-sm font-[Pt-regular]"
         />
         <Span
           text="Design system"
-          className="rounded-[15px] border bg-[#8da377] px-2 py-[5px] text-white text-sm font-[Pt-regular]"
+          className="rounded-[15px] border bg-[#8da377] px-2 py-[5px] text-[var(--color-white)] text-sm font-[Pt-regular]"
         />
       </div>
       <div className="flex items-center justify-between">
