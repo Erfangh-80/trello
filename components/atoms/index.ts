@@ -1,0 +1,5 @@
+export * from './heading/title'
+export * from './icons'
+export * from './typography'
+export * from './img/Image'
+export * from './Input/input'
