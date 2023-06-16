@@ -1,4 +1,4 @@
-const Tic = () => {
+export const Tic = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,4 +17,3 @@ const Tic = () => {
   );
 };
 
-export default Tic;

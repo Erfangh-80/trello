@@ -1,4 +1,4 @@
-const More = () => {
+export const More = () => {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -17,4 +17,3 @@ const More = () => {
   );
 };
 
-export default More;
